@@ -1,8 +1,8 @@
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import { FaPlay } from "react-icons/fa"
-import { Movie } from "../types"
-import { baseUrl } from "../constants"
+import { Movie } from "../../types"
+import { baseUrl } from "../../constants"
 import { InformationCircleIcon } from "@heroicons/react/solid"
 
 type HpBannerProps = {
@@ -34,7 +34,7 @@ function HpBanner({ netflixOriginals }: HpBannerProps) {
       <h1 className="text-2xl md:text-4xl lg:text-7xl">
         {movie?.title || movie?.name || movie?.original_name}
       </h1>
-      <p className="max-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl">
+      <p className="max-w-xs text-shadow-m text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl">
         {movie?.overview}
       </p>
 
