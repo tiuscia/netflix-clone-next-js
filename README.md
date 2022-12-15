@@ -2,6 +2,13 @@
 
 Playing around with next.js, Tailwind CSS
 
+DEMO available [here](https://netflix-clone-next-js-eight.vercel.app/)
+
+How to run the project
+
+```bash
+npm run dev
+```
 
 # Next.js + Tailwind CSS Example
 
