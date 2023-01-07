@@ -71,7 +71,9 @@ export const getServerSideProps = async () => {
     documentaries,
   ] = await Promise.all(
     requests.map((request) =>
-      fetch(Object.values(request)[0]).then((res) => res.json())
+      fetch(Object.values(request)[0]).then((res) =>
+        res.json().catch((error) => console.log(error))
+      )
     )
   )
 
