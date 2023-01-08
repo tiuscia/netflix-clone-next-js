@@ -2,7 +2,7 @@
 
 Playing around with next.js, Tailwind CSS
 
-DEMO available [here](https://netflix-clone-next-js-eight.vercel.app/)
+[DEMO available here](https://netflix-clone-next-js-eight.vercel.app/)
 
 How to run the project
 
