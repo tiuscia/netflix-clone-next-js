@@ -2,12 +2,13 @@
 import { initializeApp, getApp, getApps } from "firebase/app"
 import { getFirestore } from "firebase/firestore"
 import { getAuth } from "firebase/auth"
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API,
+  apiKey: "AIzaSyAGELXnDm9Nj8ehm3B5I7SX4D63-WbBQeQ",
   authDomain: "netflix-test-f0790.firebaseapp.com",
   projectId: "netflix-test-f0790",
   storageBucket: "netflix-test-f0790.appspot.com",

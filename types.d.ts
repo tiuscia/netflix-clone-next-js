@@ -26,3 +26,8 @@ export type Element = {
     | "Trailer"
     | "Teaser"
 }
+
+export interface Genre {
+  id: number
+  name: string
+}

@@ -31,4 +31,8 @@
   .form-label {
     @apply inline-block w-full;
   }
+
+  .modalButton {
+    @apply flex h-11 w-11 items-center justify-center rounded-full border border-[grey] bg-[#2a2a2a]/60 transition hover:border-white hover:bg-white/10;
+  }
 }
