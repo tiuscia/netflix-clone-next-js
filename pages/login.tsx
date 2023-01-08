@@ -38,6 +38,7 @@ export default function Login() {
         fill
         className="-z-10 !hidden opacity-60 sm:!inline"
         style={{ objectFit: "cover" }}
+        alt="movies"
       />
       <img
         src="https://rb.gy/ulxxee"
