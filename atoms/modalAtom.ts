@@ -1,6 +1,6 @@
 import { DocumentData } from "firebase/firestore"
 import { atom } from "recoil"
-import { Movie } from "../typings"
+import { Movie } from "../types"
 
 export const modalState = atom({
   key: "modalState",
