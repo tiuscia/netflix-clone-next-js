@@ -40,7 +40,6 @@ const Home = ({
     <div className="relative h-screen bg-gradient-to-b lg: h-[140vh]">
       <Head>
         <title>Netflix clone</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <Header />
@@ -50,9 +49,6 @@ const Home = ({
           <Row title="Trending Now" movies={trendingNow} />
           <Row title="Top Rated" movies={topRated} />
           <Row title="Action Thrillers" movies={actionMovies} />
-          {/* My List */}
-          {/* {list.length > 0 && <Row title="My List" movies={list} />} */}
-
           <Row title="Comedies" movies={comedyMovies} />
           <Row title="Scary Movies" movies={horrorMovies} />
           <Row title="Romance Movies" movies={romanceMovies} />
